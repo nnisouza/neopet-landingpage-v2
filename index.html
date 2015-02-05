@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Neopet</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="assets/css/normalize.min.css">
+        <link rel="stylesheet" href="assets/css/main.css">
+        <link rel="stylesheet" href="assets/css/animate.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+        <script src="assets/js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+       
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&appId=280559398795233&version=v2.0";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+       
+        <div class="header">
+            <div class="container">
+                <h1 id="logo">Neopet</h1>
+                <h2>A Neopet em sua loja!</h2>
+            </div>
+        </div>
+        <div class="videoTape">
+            <div class="container">
+                <img src="assets/img/neoCover.png"/>
+                <div id="videoHolder"></div>
+                <div id="play"></div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="container">
+                <div class="clearfix">
+                    <div class="half">
+                        <p>
+                            A Neopet apresenta ao mercado um produto que engloba eficiência e praticidade, garantindo a qualidade desejada aos profissionais da área. 
+                            <br/>
+                            <br/>
+                            A escova PET garante a remoção de pelos de animais de portes pequenos, médios e grandes em apenas três minutos, sendo um dos produtos líderes de venda do segmento. 
+                        </p>
+                        <h3>
+                            Não perca mais tempo,<br/>
+                            leve agora mesmo para sua loja!
+                       </h3>
+                    </div>
+                    <div class="half right">
+                        <div class="slider">
+                            <img src="assets/img/slider/sizer.png" id="sizer"/>
+                            <ul class="slideItems">
+                                <li class="active">
+                                    <img src="assets/img/slider/pequeno.png" alt="">
+                                </li>
+                                <li>
+                                    <img src="assets/img/slider/medio.png" alt="">
+                                </li>
+                                <li>
+                                    <img src="assets/img/slider/grande.png" alt="">
+                                </li>
+                            </ul>
+                            <ul class="controls">
+                                <li data-size="p" class="current">P</li>
+                                <li>M</li>
+                                <li>G</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="formArea">
+            <h2>Entre em contato!</h2>
+            <form action="">
+                <div class="form-group">
+                    <span class="iconH">
+                        <i class="fa fa-user fa-fw"></i>
+                    </span>
+                    <input type="text" placeholder="Nome" name="name">
+                </div>
+                <div class="form-group fright">
+                    <span class="iconH">
+                        <i class="fa fa-envelope fa-fw"></i>
+                    </span>
+                    <input type="text" placeholder="Email" name="email">
+                </div>
+                <div class="form-group">
+                    <span class="iconH">
+                        <i class="fa fa-map-marker fa-fw"></i>
+                    </span>
+                    <input type="text" placeholder="Cidade" name="city">
+                </div>
+                <div class="form-group fright">
+                    <span class="iconH">
+                        <i class="fa fa-mobile fa-fw"></i>
+                    </span>
+                    <input type="text" placeholder="Telefone" name="phone">
+                </div>
+                <div class="form-button">
+                    <button type="submit">
+                        <i class="fa fa-check"></i>
+                        Enviar
+                    </button>
+                </div>
+            </form>
+        </div>
+        <div class="footer">
+            <p class="address">
+                Rua Araribóia, 125 – 3º andar – Bairro Rio Branco – CEP 93310-350 – Novo Hamburgo, RS
+            </p>
+            <div class="facebookPlugin">
+                <div class="fb-like-box"
+                     data-href="https://www.facebook.com/neopetbrasil" 
+                     data-width="760" 
+                     data-height="200" 
+                     data-colorscheme="light" 
+                     data-show-faces="true" 
+                     data-header="false" 
+                     data-stream="false" 
+                     data-show-border="false">
+                </div>
+            </div>
+        </div>
+    </body>
+    
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
+    <script src="assets/js/vendor/cheet.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</html>
